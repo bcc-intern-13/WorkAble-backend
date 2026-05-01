@@ -32,3 +32,5 @@ type VerificationTokenRepository interface {
 	FindByToken(token string) (*entity.VerificationToken, error)
 	DeleteByToken(token string) error
 }
+
+//progress comment
